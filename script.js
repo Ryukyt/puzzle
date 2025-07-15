@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     result.textContent =
       savedChoice === 'truth'
         ? 'To know the truth, message @Esparzamartonize'
-        : 'Please paste an Amazon item link. Max budget: 5000 Iranian Rial';
+        : 'Please send the Amazon item link that you wish to purchase to @Esparzamartonize. Max budget: 5000 Iranian Rial';
   }
 
   // Disable back button on final.html
