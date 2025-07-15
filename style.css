@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('old_paper_texture.jpg') fixed;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 200px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #4CAF50;
+    color: white;
+    margin: 0 0.5rem;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.final-btn {
+    background: #2196F3;
+    margin: 1rem;
+}
+
+.final-btn:hover {
+    background: #1976D2;
+}
+
+.hidden {
+    display: none;
+}
+
+.subtext {
+    margin-top: -1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.puzzle-image {
+    max-width: 100%;
+    margin: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#buttons {
+    margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+}
