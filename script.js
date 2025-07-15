@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     );
 
     giftBtn.addEventListener('click', () =>
-      showFinalResult('gift', 'Please paste an Amazon item link. Max budget: 5000 Iranian Rial')
+      showFinalResult('gift', 'Please send the Amazon item link that you wish to purchase to @Esparzamartonize. Max budget: 5000 Iranian Rial')
     );
   }
 
